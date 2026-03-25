@@ -15,3 +15,8 @@ vim.diagnostic.config({
 	signs = true, -- Shows icons in the sign column
 	underline = true, -- Underlines the problematic text
 })
+
+vim.keymap.set("n", "<C-h>", "<C-w>h", { noremap = true })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { noremap = true })
+vim.keymap.set("n", "<C-i>", "<C-w>i", { noremap = true })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { noremap = true })
