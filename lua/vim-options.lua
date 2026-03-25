@@ -14,6 +14,9 @@ vim.diagnostic.config({
 	virtual_text = false, -- Disables inline text
 	signs = true, -- Shows icons in the sign column
 	underline = true, -- Underlines the problematic text
+	virtual_lines = {
+		current_line = true,
+	},
 })
 
 vim.keymap.set("n", "<C-h>", "<C-w>h", { noremap = true })
