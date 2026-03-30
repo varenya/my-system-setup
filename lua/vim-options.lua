@@ -19,7 +19,18 @@ vim.diagnostic.config({
 	},
 })
 
+-- window movements
 vim.keymap.set("n", "<C-h>", "<C-w>h", { noremap = true })
 vim.keymap.set("n", "<C-l>", "<C-w>l", { noremap = true })
 vim.keymap.set("n", "<C-i>", "<C-w>i", { noremap = true })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { noremap = true })
+
+-- Open/close quickfix list
+vim.keymap.set("n", "<leader>qo", "<cmd>copen<CR>", { desc = "Open quickfix list" })
+vim.keymap.set("n", "<leader>qc", "<cmd>cclose<CR>", { desc = "Close quickfix list" })
+
+-- Navigate entries
+vim.keymap.set("n", "]q", "<cmd>cnext<CR>", { desc = "Next quickfix item" })
+vim.keymap.set("n", "[q", "<cmd>cprev<CR>", { desc = "Prev quickfix item" })
+vim.keymap.set("n", "]Q", "<cmd>clast<CR>", { desc = "Last quickfix item" })
+vim.keymap.set("n", "[Q", "<cmd>cfirst<CR>", { desc = "First quickfix item" })
