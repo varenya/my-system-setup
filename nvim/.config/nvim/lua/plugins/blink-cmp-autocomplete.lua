@@ -1,15 +1,22 @@
 return {
 	{
 		"saghen/blink.cmp",
-		dependencies = { "rafamadriz/friendly-snippets" },
+		version = "*",
+		dependencies = { "rafamadriz/friendly-snippets", lazy = false },
 		opts = {
-			keymap = { preset = "enter" },
+			keymap = { preset = "default" },
 			sources = {
 				default = { "lsp", "path", "snippets", "buffer" },
 				providers = {
 					snippets = {
 						min_keyword_length = 1, -- default is often 2, which hides "ca"
-						score_offset = 5, -- bumps snippets higher in the dropdown
+						opts = {
+							friendly_snippets = true,
+							extended_filetypes = {
+								typescript = { "javascript" }, -- ts files also get js snippets
+								typescriptreact = { "javascript", "typescript" },
+							},
+						},
 					},
 				},
 			},

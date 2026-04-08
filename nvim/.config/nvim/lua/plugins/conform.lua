@@ -14,6 +14,7 @@ return {
 			typescriptreact = { "oxfmt" },
 			json = { "oxfmt" },
 			vue = { "oxfmt" },
+			go = { "gofmt" },
 		},
 		format_on_save = {
 			-- These options will be passed to conform.format()
