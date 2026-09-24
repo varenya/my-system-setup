@@ -23,6 +23,7 @@ return {
 			vim.lsp.enable("ruff")
 			vim.lsp.enable("ty")
 			vim.lsp.enable("gopls")
+			vim.lsp.enable("expert")
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
