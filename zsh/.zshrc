@@ -86,7 +86,6 @@ plugins=(
  git-open
  macos
  node
- direnv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -145,11 +144,8 @@ esac
 
 #1password
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
-#export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
-#
-#
+
 export BUILDKIT_COLORS=run=green:warning=yellow:error=red:cancel=cyan
-eval "$(rbenv init -)"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/varenya/.rd/bin:$PATH"
@@ -189,8 +185,6 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 # 1Password Plugins
 source ~/.config/op/plugins.sh
 
-# Setup zoxide
+# setup zoxide
 eval "$(zoxide init zsh)"
 
-# Vite+ bin (https://viteplus.dev)
-. "$HOME/.vite-plus/env"

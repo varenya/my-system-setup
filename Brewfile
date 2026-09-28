@@ -11,7 +11,7 @@ brew "yazi"
 brew "lazygit"
 
 # Smarter cd
-brew "z"
+brew "zoxide"
 
 # faster grep
 brew "ripgrep"
