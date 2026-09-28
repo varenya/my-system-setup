@@ -15,3 +15,7 @@ brew "zoxide"
 
 # faster grep
 brew "ripgrep"
+
+# github cli
+brew "gh"
+

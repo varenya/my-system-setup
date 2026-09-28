@@ -154,8 +154,6 @@ export PATH="/Users/varenya/.rd/bin:$PATH"
 # Save iex history
 export ERL_AFLAGS="-kernel shell_history enabled"
 
-export GITHUB_TOKEN="op://Code/GitHub PAT/credential"
-
 # Added by Windsurf
 export PATH="/Users/varenya/.codeium/windsurf/bin:$PATH"
 
