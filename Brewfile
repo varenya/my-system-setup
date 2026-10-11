@@ -19,3 +19,6 @@ brew "ripgrep"
 # github cli
 brew "gh"
 
+# uv
+brew "uv"
+
