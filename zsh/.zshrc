@@ -186,3 +186,6 @@ source ~/.config/op/plugins.sh
 # setup zoxide
 eval "$(zoxide init zsh)"
 
+# Add this to load fnm
+eval "$(fnm env --use-on-cd)"
+
