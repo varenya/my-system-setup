@@ -22,3 +22,6 @@ brew "gh"
 # uv
 brew "uv"
 
+# fast node manager
+brew "fnm"
+
