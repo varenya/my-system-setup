@@ -25,6 +25,12 @@ brew "uv"
 # fast node manager
 brew "fnm"
 
-# fast node manager
+# go lang
 brew "go"
+
+# open tofu (terraform replacement)
+brew "opentofu"
+
+# orbstack (docker desktop & k8s)
+brew "orbstack"
 
