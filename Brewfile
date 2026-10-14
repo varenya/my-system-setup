@@ -25,3 +25,6 @@ brew "uv"
 # fast node manager
 brew "fnm"
 
+# fast node manager
+brew "go"
+
