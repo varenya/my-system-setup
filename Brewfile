@@ -32,5 +32,5 @@ brew "go"
 brew "opentofu"
 
 # orbstack (docker desktop & k8s)
-brew "orbstack"
+cask "orbstack"
 
